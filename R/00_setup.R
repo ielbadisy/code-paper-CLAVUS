@@ -1,3 +1,23 @@
+# Package versions used to produce the reported results:
+#   R            4.4.1
+#   funcml       0.9.0   (CRAN)
+#   mimar        1.0.0   (CRAN)
+#   glmnet       5.0
+#   ranger       0.18.0
+#   xgboost      3.2.1.1
+#   gbm          2.3.1
+#   earth        5.3.5
+#   e1071        1.7.17
+#   nnet         7.3.20
+#   kknn         1.4.1
+#   dbarts       0.9.33
+#   data.table   1.18.4
+#   ggplot2      4.0.3
+#   patchwork    1.3.2
+#   ragg         1.4.0
+#   knitr        1.51
+#   quarto       1.5.1
+
 set.seed(20260427)
 
 project_root <- normalizePath(getwd(), winslash = "/", mustWork = TRUE)
